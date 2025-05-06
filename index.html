@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBA Stats Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>NBA Player PPG Over Seasons</h1>
+    <select id="playerSelect">
+      <option value="LeBron James">LeBron James</option>
+      <option value="Stephen Curry">Stephen Curry</option>
+      <option value="Giannis Antetokounmpo">Giannis Antetokounmpo</option>
+    </select>
+    <canvas id="ppgChart" width="600" height="400"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
